@@ -18,3 +18,7 @@ Navigate to the Directory Containing Your Script: Open a Terminal or Command Pro
 Run the Script: Once you're in the correct directory, you can run the Python script by typing:
 
 >> python keyword_search.py
+
+
+
+
