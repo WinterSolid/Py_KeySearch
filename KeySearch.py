@@ -11,10 +11,9 @@ def search_keywords_in_files(directory, keywords):
                         found.append((filename, line_num, line.rstrip()))
     return found
 
-# Example usage:
-directory = '/path/to/your/files'
-keywords = {'keyword1', 'keyword2', 'keyword3'}
-results = search_keywords_in_files(directory, keywords)
-
-for filename, line_num, line_content in results:
-    print(f'Found in {filename} (line {line_num}): {line_content}')
+if __name__ == "__main__":
+    directory = "/path/to/your/files"
+    keywords = {"keyword1", "keyword2", "keyword3"}
+    results = search_keywords_in_files(directory, keywords)
+    for result in results:
+        print(result)
